@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+html{
+    font-size: 10px;
+}
+
 body {
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Ubuntu', sans-serif;
@@ -10,7 +14,7 @@ body {
 
 header {
     /* background-color: grey; */
-    height: 80vh;
+    height: 100vh;
     /* background-image: url('../assets/img/bg_header.jpg'); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
@@ -18,4 +22,14 @@ header {
     
     background: url('../assets/img/bg_header.jpg') center/cover fixed;
 
+}
+
+header h1{
+    font-size: 6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightcoral;
 }
