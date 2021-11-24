@@ -31,5 +31,5 @@ header h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
